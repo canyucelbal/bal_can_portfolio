@@ -1,0 +1,25 @@
+.copyright {
+    // background-color: rgb(92, 92, 13);
+    height: 50px;
+    float: left;
+    line-height: 50px;
+    min-width: 30%;
+    margin-left: 20px;
+}
+
+.redBar {
+    background-color:red;
+    height: 50px;
+    width: 5px;
+    float: left;
+    margin-left: 50px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 13px;
+    @media only screen and (min-width: 768px){
+        margin-top: 50px;
+    }
+}

@@ -1,0 +1,40 @@
+.nameBlock {
+    padding-top: 5% 0;
+}
+
+.name {
+    // background-color: purple;
+    float: left;
+    text-align: center;
+    margin-bottom: 15px;
+    // padding: 12.7% 0;
+    @media only screen and (min-width: 768px){
+        margin: 250px 0;
+        margin-bottom: 0;
+    }
+}
+
+.video {
+    // background-color: white;
+    @media only screen and (min-width: 768px){
+        margin-right: 50px;
+    }
+}
+
+.vidvid {
+    padding: 0% 0;
+    height: 540px;
+    float: right;
+}
+
+.main {
+    // display: flex;
+    // flex-direction: row;
+    // justify-content: space-between;
+    @media only screen and (min-width: 768px){
+        margin-top: 50px;
+    }
+    h2 {
+        font-size: 49px;
+    }
+}
