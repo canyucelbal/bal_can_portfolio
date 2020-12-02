@@ -18,9 +18,35 @@
         </header>
 
         <main class="main">
-            <section class="nameBlock"><h2 class="col-5 name">Can Yucel Bal</h2></section>
-            <section class="video"><iframe class="col-6 vidvid" src="https://www.youtube.com/embed/eBOA6HHde_Q" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></section>
+            <section class="nameBlock"><h2 class="col-5 name">Contact Us</h2></section>
+            <section class="video">
+                <form action="./includes/mail/send.php" method="POST" id="mail-form">
+                    <div class="col-6 contactArea">
+                        <div class="col-12 contactInfo">
+                        <label class="col-12" for="firstname">First Name</label>
+                        <input class="col-6" type="text" id="firstname" name="firstname" placeholder="First name" required>
+        
+                        <label class="col-12" for="lastname">Last Name</label>
+                        <input class="col-6" type="text" id="lastname" name="lastname" placeholder="Last name" required>
+        
+                        <label class="col-12" for="email">E-Mail</label>
+                        <input class="col-6" type="email" id="email" name="email" placeholder="Email" required>
+                        </div>
+        
+                        <div class="col-12 messageArea">
+                        <label class="col-12 yourMessage" for="message">Your Message</label>
+                        <textarea class="col-12" name="message" id="message" cols="30" rows="11"></textarea>
+                        </div>
+                    </div>
+        
+                    <div class="col-6 submit-wrapper">
+                        <span class="col-12 submit">Submit</span>
+                    </div>
+        
+                </form>
+            </section>
         </main>
+        
 
         <nav class="col-7 mainMenu">
             <ul>
@@ -37,5 +63,6 @@
             <section class="col-2 copyright"><p>2020 All rights reserved</p></section>
         </footer>
     </div>
+    <script src="js/main.js" type="module"></script>
 </body>
 </html>
