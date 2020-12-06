@@ -18,9 +18,11 @@ export default {
             <img :src="'images/' + portfolio.imageb" />
 
             <div class="info">
-            {{ portfolio.name }}
+            <h3>{{ portfolio.name }}</h3>
             <br />
-            {{ portfolio.description }}
+            <p>{{ portfolio.date }}</p>
+            <br />
+            <p>{{ portfolio.description }}</p>
             </div>
 
             <div class="shadow" @click="closeLightBox"></div>
