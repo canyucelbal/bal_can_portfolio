@@ -23,16 +23,16 @@
            
             
             <ul>
-                <div class="portfolioCard" >
-                    <div href="#" class="" v-for="portfolio in portfolios" @click.prevent="showDetail(portfolio)">
+                <div class="col-12 portfolioCard" >
+                    <div href="#" class="col-4 imgLink" v-for="portfolio in portfolios" @click.prevent="showDetail(portfolio)">
                         
-                        <portfolio-card class="portA" :portfolio="portfolio" :key="portfolio.id">   </portfolio-card>
+                        <portfolio-card class="col-12 portA" :portfolio="portfolio" :key="portfolio.id">   </portfolio-card>
                     </div>
                 </div>
             </ul>
 
             <lightbox v-model="showBioData" :portfolio="currentPortfolioData" @on-close="closeLightBox"></lightbox>
-                
+
                
            
         </main>
