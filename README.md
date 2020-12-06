@@ -2,7 +2,7 @@
 
 ## Description 
 
-This is my own portfolio website.
+This is my own portfolio website: www.icando.design
 
 ## Download
 You'll need git installed locally.
